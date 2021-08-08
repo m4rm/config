@@ -1,0 +1,23 @@
+Kali config
+===========
+Created Wednesday 04 August 2021
+
+Zim: Install plugins: Edit -> Preferences -> Plugins -> Attachements Browser/Tasks List, both add to panes.
+
+Windows 10:
+Ctrl+Win+Arrow Keys -> move to right/left workspace
+Alt+Tab -> Change window on current workspace
+Win+Tab -> Enter task view and then Ctrl+Win+Arrow Keys to change workspace inside view, Arrow/Page keys to navigate over windows.
+
+Kali:
+~/.bashrc -> HISTSIZE=10000, HISTFILESIZE=20000, PROMPT_ALTERNATIVE=oneline, NEWLINE_BEFORE_PROMPT=no (users marm/root)
+Keyboard -> Application Shortcuts -> exo-open --launch TerminalEmulator Ctrl+Alt+T
+Window Manager -> Keyboard -> Previous/Next workspace - Ctrl+Win+Left/Right
+Alt+Insert -> New workspace
+Alt+Delete -> Delete last workspace
+Win+Arrow Up -> Maximize screen
+
+copy .tmux.conf in home folder ~/
+sudo apt-get install --assume-yes xclip - for command line X clipboard manipulations
+Installed tmux 3.1c-1, version important because config commands can change drastically.
+
