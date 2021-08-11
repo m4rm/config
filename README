@@ -21,3 +21,9 @@ copy .tmux.conf in home folder ~/
 sudo apt-get install --assume-yes xclip - for command line X clipboard manipulations
 Installed tmux 3.1c-1, version important because config commands can change drastically.
 
+~/.bash_aliases
+alias t='tmux'
+
+which tmux -> to find path and then
+
+sudo chsh -s /usr/bin/tmux marm (logout needed)
