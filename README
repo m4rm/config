@@ -24,6 +24,12 @@ Installed tmux 3.1c-1, version important because config commands can change dras
 ~/.bash_aliases
 alias t='tmux'
 
-which tmux -> to find path and then
+In qterminal File->Preference->Shortcut redefine all hotkeys to not use Alt most importantly.
+I don't know how to unset hotkey, so just changed config in ~/.config/qterminal.org/qterminal.ini,
+unset all Alt combinations to empty behind equal sign.
 
+which tmux -> to find path and then
+ 
 sudo chsh -s /usr/bin/tmux marm (logout needed)
+
+
