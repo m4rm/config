@@ -21,8 +21,7 @@ copy .tmux.conf in home folder ~/
 sudo apt-get install --assume-yes xclip - for command line X clipboard manipulations
 Installed tmux 3.1c-1, version important because config commands can change drastically.
 
-~/.bash_aliases
-alias t='tmux'
+Copy aliases list to ~/.bash_aliases
 
 In qterminal File->Preference->Shortcut redefine all hotkeys to not use Alt most importantly.
 I don't know how to unset hotkey, so just changed config in ~/.config/qterminal.org/qterminal.ini,
